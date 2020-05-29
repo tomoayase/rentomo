@@ -1,5 +1,59 @@
 body{
   font-family: "Avenir Next";
-  color: green;
+  
 }
 li{list-style: none;}
+header{
+  height: 60px;
+  width: 100%;
+   background-color: black;
+  color: white;
+}
+.header-title{
+  float: left;
+  padding-left: 2%;
+ }
+
+.header-list a{
+  display: inline-block;
+  text-align:center;
+  color:white;
+  padding:20px 5px
+}
+
+.copy-container{
+  background-color: greenyellow;
+  text-align: center;
+  padding:3px 10px;
+  margin-bottom:20px;
+}
+.contents-list{
+  background-color: paleturquoise;
+}
+.Osaka{
+  display:flex; 
+  flex-wrap: wrap;
+}
+.Osaka h1{
+  width:100%;
+}
+.Osaka p,a{
+  width: 25%;
+  
+}
+.explain{
+  background-color: rgb(220, 245, 80);
+}
+.concept{
+  display: inline-block;
+  text-align: center;
+  padding:0px 30px;
+  margin:0px 400px;
+  background-color: rgb(220, 245, 80);
+}
+.example{
+ padding:0px 600px;
+}
+.container{
+  background-color: rgb(62, 202, 160);
+}
